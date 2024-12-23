@@ -1,3 +1,12 @@
+<img width="1398" alt="image" src="https://github.com/user-attachments/assets/881aec11-26d3-4495-95c8-a2dfb401db9d" />
+<img width="1400" alt="image" src="https://github.com/user-attachments/assets/5e683337-8be5-4411-b954-a17ea45ae672" />
+
+
+
+
+
+
+
 ## Overview
 This project is built using **Laravel** and **Vue.js** to create a robust system for managing `chantiers` (projects). It features user authentication, dynamic progress tracking, and comprehensive testing with **Pest PHP**.
 
