@@ -48,10 +48,10 @@
       <tbody>
         <tr v-for="row in tableData" :key="row.id" class="hover:bg-gray-50">
           <!-- Information Data -->
-          <td class="border border-gray-300 px-4 py-2 text-blue-600">{{ row.client }}</td>
-          <td class="border border-gray-300 px-4 py-2">{{ row.lieu }}</td>
-          <td class="border border-gray-300 px-4 py-2">{{ row.agence }}</td>
-          <td class="border border-gray-300 px-4 py-2">{{ row.date_intervention && formatDate(row.date_intervention) }} - {{ row.date_fin && formatDate(row.date_fin) }}</td>
+          <td class="border border-gray-300 px-4 py-2 text-blue-600">🗣️ {{ row.client }}</td>
+          <td class="border border-gray-300 px-4 py-2">📍 {{ row.lieu }}</td>
+          <td class="border border-gray-300 px-4 py-2">⚒️ {{ row.agence }}</td>
+          <td class="border border-gray-300 px-4 py-2">🗓️ {{ row.date_intervention && formatDate(row.date_intervention) }} - {{ row.date_fin && formatDate(row.date_fin) }}</td>
           <!-- Checklist Preparation Data -->
           <td class="border border-gray-300 px-4 py-2" :class="resolveBg(row.bon_command)">
             <select @change=" val => update(row.id, 'bon_command', val.target.value)" v-model="row.bon_command" class="rounded px-2 py-1" :class="resolveBg(row.bon_command)">

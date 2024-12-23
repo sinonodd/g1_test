@@ -5,7 +5,7 @@
         <button @click="closeModal" class="absolute top-4 right-4 text-xl font-bold text-gray-500 hover:text-gray-700">X</button>
         
         <!-- Modal Content -->
-        <h2 class="text-center text-2xl font-semibold mb-4">Login</h2>
+        <h2 class="text-center text-2xl font-semibold mb-4">🔐 Login</h2>
         
         <form @submit.prevent="login" class="space-y-4">
           <!-- Email Field -->
@@ -43,7 +43,7 @@
               type="submit"
               class="w-full py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
-              Login
+              Login 🚀
             </button>
           </div>
         </form>
